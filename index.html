@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>counter</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <style>
+      .inc{
+          position: relative;
+          text-align: center;
+         top:10px;
+          left:35px;
+          width:200px;
+          border-radius: 10px;
+
+      }
+      .de{
+          position: relative;
+          top:30px;
+          left:35px;
+      }
+      .re{
+        position: relative;
+        top:30px;
+          left:35px;
+      }
+      .in{
+        position: relative;
+        top:30px;
+          left:35px;
+      }
+      h1{
+          font-size: 30px;
+          position: relative;
+          top:10px;
+          left:80px;
+          font-family:  Comic Sans, Comic Sans MS, cursive;
+      }
+  </style>
+</head>
+<body id="body">
+    <div class="container" style="width:300px;height:200px;border:solid 2px black;position: relative;margin-left: 37%;margin-top: 15%;border-radius: 20px;">
+     <h1>counter</h1>
+     <hr style="border-bottom: solid 2px black;">
+     <input type="text" id="display" class="inc">
+     <button type="button" onclick="decrease()" class="de">decrease</button>
+     <button type="button" onclick="reset()" class="re">reset</button>
+     <button type="button" onclick="increase()" class="in">increase</button>
+    </div>
+    <script src="count.js"></script>
+    </body>
+    </html>
